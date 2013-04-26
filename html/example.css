@@ -1,0 +1,28 @@
+
+a img {
+	border: 0;
+}
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+table.sortable {
+	border-spacing: 0;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+table.sortable th, table.sortable td {
+	text-align: left;
+	padding: 2px 4px 2px 4px;
+	width: 100px;
+	border-style: solid;
+	border-color: #444;
+}
+table.sortable th {
+	border-width: 0px 1px 1px 1px;
+}
+table.sortable td {
+	border-width: 0px 1px 0px 1px;
+}

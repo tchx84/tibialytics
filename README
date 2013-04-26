@@ -1,0 +1,21 @@
+Tibialytics is a community analyzer for CipSoft's MMORPG game Tibia. It
+generates a guild ranking for any game world. To generate this ranking
+it crawls through the game website, gathering all publicly available data
+about the gameworld's guilds and players.
+
+The ranking generator does an pseudo-statistical analysis that takes into
+account: (a) player's basic data (levels), (b) pvp records, extracted from
+player's public data and (c) social interaction records (marriage, fight's
+assistance).
+
+Usage by example:
+
+1) $ruby run.rb Amera
+2) $cd ./results/Amera/
+3) Results are provided in two formats:
+  a) geek friendly, verbose, plain text.
+  b) human friendly, html sortable tables.
+
+Dependencies:
+
+1) Ruby
